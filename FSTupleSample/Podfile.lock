@@ -1,0 +1,16 @@
+PODS:
+  - FSTuple (0.0.1)
+
+DEPENDENCIES:
+  - FSTuple (from `../`)
+
+EXTERNAL SOURCES:
+  FSTuple:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSTuple: 1a139e02e1cb575d527cc69e035b24eb2c71333e
+
+PODFILE CHECKSUM: 095c9a791bd247b47cb9e30d536d367659acbfc2
+
+COCOAPODS: 1.6.0.beta.2

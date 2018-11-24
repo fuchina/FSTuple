@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453BD6F736EC649128FB4914B765D80A /* Pods-FSTupleSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DD606CE5DE952EC220F9815248A67A /* Pods-FSTupleSample-dummy.m */; };
+		84F871B780805C0C70B55C303903600C /* FSTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 189937484171E4B6855414CC5082BF5B /* FSTuple.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE20103EED44EAA4CE8061309C6F598D /* FSTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 756BBB26C797005B7F08A82914F0226D /* FSTuple.m */; };
+		C192C7319AA2A8F59E993B3798EF2728 /* FSTuple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85061CBB1CB58C2CE6E8E9D91317554C /* FSTuple-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92627B97EEDBC5653B9AEA2EAD2B8128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31602320A3793FFC85DB4ABDC3C44497;
+			remoteInfo = FSTuple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428123D6B188319F372EFF8EC5804F5 /* libPods-FSTupleSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FSTupleSample.a"; path = "libPods-FSTupleSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F84D8B54DA78D3B84CDFD0E29CEB1E /* FSTuple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSTuple-prefix.pch"; sourceTree = "<group>"; };
+		09E8ACB8143B6646B6AC5352945E05E7 /* Pods-FSTupleSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSTupleSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		189937484171E4B6855414CC5082BF5B /* FSTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTuple.h; path = FSTuple/Classes/FSTuple.h; sourceTree = "<group>"; };
+		21D985B3E78FDB1F1F4931B124AAC1D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3B39AF6AF646D3F83588EFD19360724A /* libFSTuple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSTuple.a; path = libFSTuple.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B01C8D4EAAFEB43838245E312247120 /* FSTuple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSTuple.xcconfig; sourceTree = "<group>"; };
+		6FD7AE947F0674DE634E2B07B59AB664 /* Pods-FSTupleSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSTupleSample.release.xcconfig"; sourceTree = "<group>"; };
+		756BBB26C797005B7F08A82914F0226D /* FSTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTuple.m; path = FSTuple/Classes/FSTuple.m; sourceTree = "<group>"; };
+		85061CBB1CB58C2CE6E8E9D91317554C /* FSTuple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSTuple-dummy.m"; sourceTree = "<group>"; };
+		B0CCD2560D32A7EE39D2BC16A502B01A /* Pods-FSTupleSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSTupleSample.debug.xcconfig"; sourceTree = "<group>"; };
+		B1335544C12800992F355BBC28D98C20 /* FSTuple.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSTuple.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5BD809E0169B79227AF71284DC2710C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0DD606CE5DE952EC220F9815248A67A /* Pods-FSTupleSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSTupleSample-dummy.m"; sourceTree = "<group>"; };
+		DE58DC1B53988BE87F7D21CB35519AD3 /* Pods-FSTupleSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSTupleSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0DBE47799B0F10BA0B8D7EFC6CB8B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE39F49945479638F6209CD06A71B32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0048E50AD5BB3CBB99D7DEC6C324D80C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00F6F8427171D42B3892505EB3F17045 /* FSTuple */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		00F6F8427171D42B3892505EB3F17045 /* FSTuple */ = {
+			isa = PBXGroup;
+			children = (
+				189937484171E4B6855414CC5082BF5B /* FSTuple.h */,
+				756BBB26C797005B7F08A82914F0226D /* FSTuple.m */,
+				095B888BCAB32B2A4C23588EBEC6CB73 /* Pod */,
+				A0B7F351332DA2304BBEB29131F87C03 /* Support Files */,
+			);
+			name = FSTuple;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		095B888BCAB32B2A4C23588EBEC6CB73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B1335544C12800992F355BBC28D98C20 /* FSTuple.podspec */,
+				21D985B3E78FDB1F1F4931B124AAC1D7 /* LICENSE */,
+				B5BD809E0169B79227AF71284DC2710C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3700875741DC0DCE97FF2D3C9D2F3CCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A50D4D102A147A1A6D6F16CEE487A22 /* Pods-FSTupleSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A50D4D102A147A1A6D6F16CEE487A22 /* Pods-FSTupleSample */ = {
+			isa = PBXGroup;
+			children = (
+				DE58DC1B53988BE87F7D21CB35519AD3 /* Pods-FSTupleSample-acknowledgements.markdown */,
+				09E8ACB8143B6646B6AC5352945E05E7 /* Pods-FSTupleSample-acknowledgements.plist */,
+				D0DD606CE5DE952EC220F9815248A67A /* Pods-FSTupleSample-dummy.m */,
+				B0CCD2560D32A7EE39D2BC16A502B01A /* Pods-FSTupleSample.debug.xcconfig */,
+				6FD7AE947F0674DE634E2B07B59AB664 /* Pods-FSTupleSample.release.xcconfig */,
+			);
+			name = "Pods-FSTupleSample";
+			path = "Target Support Files/Pods-FSTupleSample";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0048E50AD5BB3CBB99D7DEC6C324D80C /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A4904E594F9C6A0015D83E7D58EB8B5D /* Products */,
+				3700875741DC0DCE97FF2D3C9D2F3CCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B7F351332DA2304BBEB29131F87C03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B01C8D4EAAFEB43838245E312247120 /* FSTuple.xcconfig */,
+				85061CBB1CB58C2CE6E8E9D91317554C /* FSTuple-dummy.m */,
+				08F84D8B54DA78D3B84CDFD0E29CEB1E /* FSTuple-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "FSTupleSample/Pods/Target Support Files/FSTuple";
+			sourceTree = "<group>";
+		};
+		A4904E594F9C6A0015D83E7D58EB8B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B39AF6AF646D3F83588EFD19360724A /* libFSTuple.a */,
+				0428123D6B188319F372EFF8EC5804F5 /* libPods-FSTupleSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B1798E33A4DFC2BF6A5E78FCBB3AE0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07EF1D4B151C606DAD252883F7C2C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F871B780805C0C70B55C303903600C /* FSTuple.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2495B10DCE58F8F7149A00EAAE0E253B /* Pods-FSTupleSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30E5BDFF5A8088EF03684D59AEF534F /* Build configuration list for PBXNativeTarget "Pods-FSTupleSample" */;
+			buildPhases = (
+				4B1798E33A4DFC2BF6A5E78FCBB3AE0E /* Headers */,
+				752DB7BE8ABC8DB1458F84B02BEA968D /* Sources */,
+				DE39F49945479638F6209CD06A71B32B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7D231B70C471B1B6D69E320D1AC52F /* PBXTargetDependency */,
+			);
+			name = "Pods-FSTupleSample";
+			productName = "Pods-FSTupleSample";
+			productReference = 0428123D6B188319F372EFF8EC5804F5 /* libPods-FSTupleSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31602320A3793FFC85DB4ABDC3C44497 /* FSTuple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C402B2B5311EF7BDD2755B9490EAF2 /* Build configuration list for PBXNativeTarget "FSTuple" */;
+			buildPhases = (
+				D07EF1D4B151C606DAD252883F7C2C4F /* Headers */,
+				497DFE6F93ED21C408BE27859500F1AB /* Sources */,
+				A0DBE47799B0F10BA0B8D7EFC6CB8B74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSTuple;
+			productName = FSTuple;
+			productReference = 3B39AF6AF646D3F83588EFD19360724A /* libFSTuple.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A4904E594F9C6A0015D83E7D58EB8B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31602320A3793FFC85DB4ABDC3C44497 /* FSTuple */,
+				2495B10DCE58F8F7149A00EAAE0E253B /* Pods-FSTupleSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497DFE6F93ED21C408BE27859500F1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C192C7319AA2A8F59E993B3798EF2728 /* FSTuple-dummy.m in Sources */,
+				BE20103EED44EAA4CE8061309C6F598D /* FSTuple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752DB7BE8ABC8DB1458F84B02BEA968D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453BD6F736EC649128FB4914B765D80A /* Pods-FSTupleSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7D231B70C471B1B6D69E320D1AC52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSTuple;
+			target = 31602320A3793FFC85DB4ABDC3C44497 /* FSTuple */;
+			targetProxy = 92627B97EEDBC5653B9AEA2EAD2B8128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07BAAE42473AA3DCFCE8AC4AC2DBDD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD7AE947F0674DE634E2B07B59AB664 /* Pods-FSTupleSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EAAED33EA473E97003213EED7C83296C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B01C8D4EAAFEB43838245E312247120 /* FSTuple.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSTuple/FSTuple-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSTuple;
+				PRODUCT_NAME = FSTuple;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C50E55A3A4C09FCB7E5A10E66727D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CCD2560D32A7EE39D2BC16A502B01A /* Pods-FSTupleSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC92610BC2B951013EE8F80C31D5E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B01C8D4EAAFEB43838245E312247120 /* FSTuple.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSTuple/FSTuple-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSTuple;
+				PRODUCT_NAME = FSTuple;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C402B2B5311EF7BDD2755B9490EAF2 /* Build configuration list for PBXNativeTarget "FSTuple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAED33EA473E97003213EED7C83296C /* Debug */,
+				FBC92610BC2B951013EE8F80C31D5E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30E5BDFF5A8088EF03684D59AEF534F /* Build configuration list for PBXNativeTarget "Pods-FSTupleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C50E55A3A4C09FCB7E5A10E66727D2 /* Debug */,
+				07BAAE42473AA3DCFCE8AC4AC2DBDD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
